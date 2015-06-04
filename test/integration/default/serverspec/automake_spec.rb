@@ -2,6 +2,6 @@ require 'serverspec'
 
 set :backend, :exec
 
-describe package("automake") do
-    it { should be_installed }
+describe command("automake -v") do
+  its (:stdout) { should match /automake/ }
 end
