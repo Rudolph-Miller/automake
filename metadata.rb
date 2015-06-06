@@ -6,4 +6,5 @@ description      'Installs/Configures automake'
 long_description 'Installs/Configures automake'
 version          '0.1.1'
 
+depends "build-essential"
 depends "autoconf"
