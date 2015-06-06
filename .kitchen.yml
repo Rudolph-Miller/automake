@@ -13,7 +13,5 @@ platforms:
 suites:
   - name: default
     run_list:
-      - recipe[build-essential]
-      #- recipe[autoconf]
       - recipe[automake]
     attributes:

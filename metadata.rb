@@ -7,4 +7,6 @@ long_description 'Installs/Configures automake'
 version          '0.1.1'
 
 depends "build-essential"
+depends "package-tar"
+depends "tar"
 depends "autoconf"
