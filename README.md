@@ -1,4 +1,5 @@
 # automake-cookbook
+[![Build Status](https://circleci.com/gh/Rudolph-Miller/automake.svg?style=shield)](https://circleci.com/Rudolph-Miller/automake)
 
 TODO: Enter the cookbook description here.
 
