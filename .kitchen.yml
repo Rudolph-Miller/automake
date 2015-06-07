@@ -14,4 +14,15 @@ suites:
   - name: default
     run_list:
       - recipe[automake]
+  - name: version
+    run_list:
+      - recipe[automake]
     attributes:
+      automake:
+        version: 1.4
+  - name: preifx
+    run_list:
+      - recipe[automake]
+    attributes:
+      automake:
+        prefix: "/opt/local"
